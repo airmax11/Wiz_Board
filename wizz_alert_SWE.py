@@ -93,8 +93,8 @@ def main():
     #print(type(float_price_ticket_to), type(float_price_ticket_from))
 
     connection = mysql.connector.connect(
-        user='airmax', password='admin123!',
-        host='airmax.mysql.pythonanywhere-services.com',port=3306, database='airmax$test_db'
+        user='XXXXXX', password='XXXXXX',
+        host='XXXXXX.mysql.pythonanywhere-services.com',port=3306, database='XXXXXX$test_db'
     )
 
     cursor = connection.cursor(buffered=True)
