@@ -1,4 +1,4 @@
-# Work only from PYTHONEVERYWHERE
+# Works only from PYTHONEVERYWHERE
 import requests
 import mysql.connector
 import sys
